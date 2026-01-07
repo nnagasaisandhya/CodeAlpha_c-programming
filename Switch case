@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 int main()
 {
     int choice;
     float num1, num2, result;
-
     printf("Basic Calculator\n");
     printf("1. Addition\n");
     printf("2. Subtraction\n");
@@ -16,7 +14,6 @@ int main()
 
     printf("Enter two numbers: ");
     scanf("%f %f", &num1, &num2);
-
     switch(choice)
     {
         case 1:
